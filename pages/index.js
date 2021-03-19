@@ -55,7 +55,7 @@ export default function Home() {
           </div>
           <div className={styles.inner}>
               <div className={styles.first1}>
-                <a href="https://finaldeploymentmovie.herokuapp.com/"> <Image className={styles.pongimg} src="/movie1.jpg" width={250} height={350}/></a>
+                <a href="https://finaldeploymentmovie.herokuapp.com/"> <img className={styles.pongimg} src="/movie1.JPG" /></a>
               </div>
               <div className={styles.second}>
                 <p>
