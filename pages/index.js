@@ -134,7 +134,7 @@ export default function Home() {
           </div>
           <div className={styles.inner}>
               <div className={styles.first1}>
-                <a href="https://github.com/YasamanForouzesh/Auth-sqlalchemy-flask"> <Image className={styles.pongimg} src="/Auth.jpg" width={250} height={350}/></a>
+                <a href="https://github.com/YasamanForouzesh/Auth-sqlalchemy-flask"> <img className={styles.pongimg} src="/Auth.JPG"/></a>
               </div>
               <div className={styles.second}>
                 <p>
