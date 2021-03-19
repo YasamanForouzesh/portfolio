@@ -227,10 +227,10 @@ export default function Home() {
         <h1 className={styles.text}> Contacts</h1>
         <div className={styles.grid}>
           <div>
-              <a href="https://github.com/YasamanForouzesh"><Image className={styles.logoimg} src="/Octocat.png" width={50} height={50}/></a>
+              <a href="https://github.com/YasamanForouzesh"><img className={styles.logoimg} src="/Octocat.png"/></a>
           </div>
           <div>
-              <a href="https://www.linkedin.com/in/yasaman-forouzesh/"><Image className={styles.linkimg} src="/Linkedin.png" width={50} height={20}/></a>
+              <a href="https://www.linkedin.com/in/yasaman-forouzesh/"><img className={styles.linkimg} src="/Linkedin.png" /></a>
           </div>
         </div>
       </div>       
