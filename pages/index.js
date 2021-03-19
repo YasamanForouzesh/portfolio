@@ -49,13 +49,13 @@ export default function Home() {
                 </p>
               </div>
               <div className={styles.pongdiv}>
-                <a href="https://yasamanforouzesh.github.io/project1-pong/"> <img className={styles.pongimg} src="/pong2.jpg"/></a>
+                <a href="https://yasamanforouzesh.github.io/project1-pong/"> <Image className={styles.pongimg} src="/pong2.jpg" width={250} height={350}/></a>
                 <i class="fa fa-github" aria-hidden="true" src="/GitHub_Logo.png"></i>
               </div>
           </div>
           <div className={styles.inner}>
               <div className={styles.first1}>
-                <a href="https://finaldeploymentmovie.herokuapp.com/"> <img className={styles.pongimg} src="/movie1.jpg"/></a>
+                <a href="https://finaldeploymentmovie.herokuapp.com/"> <Image className={styles.pongimg} src="/movie1.jpg" width={250} height={350}/></a>
               </div>
               <div className={styles.second}>
                 <p>
@@ -128,13 +128,13 @@ export default function Home() {
                 </p>
               </div>
               <div className={styles.pongdiv}>
-                <a href="http://sunvoyage.herokuapp.com/"> <img className={styles.pongimg} src="/Sunvoyage.jpg"/></a>
+                <a href="http://sunvoyage.herokuapp.com/"> <Image className={styles.pongimg} src="/Sunvoyage.jpg" width={250} height={350}/></a>
                 <i class="fa fa-github" aria-hidden="true" src="/GitHub_Logo.png"></i>
               </div>
           </div>
           <div className={styles.inner}>
               <div className={styles.first1}>
-                <a href="https://github.com/YasamanForouzesh/Auth-sqlalchemy-flask"> <img className={styles.pongimg} src="/Auth.jpg"/></a>
+                <a href="https://github.com/YasamanForouzesh/Auth-sqlalchemy-flask"> <Image className={styles.pongimg} src="/Auth.jpg" width={250} height={350}/></a>
               </div>
               <div className={styles.second}>
                 <p>
@@ -227,10 +227,10 @@ export default function Home() {
         <h1 className={styles.text}> Contacts</h1>
         <div className={styles.grid}>
           <div>
-              <a href="https://github.com/YasamanForouzesh"><img className={styles.logoimg} src="/Octocat.png"/></a>
+              <a href="https://github.com/YasamanForouzesh"><Image className={styles.logoimg} src="/Octocat.png" width={50} height={50}/></a>
           </div>
           <div>
-              <a href="https://www.linkedin.com/in/yasaman-forouzesh/"><img className={styles.linkimg} src="/Linkedin.png"/></a>
+              <a href="https://www.linkedin.com/in/yasaman-forouzesh/"><Image className={styles.linkimg} src="/Linkedin.png" width={50} height={20}/></a>
           </div>
         </div>
       </div>       

@@ -67,6 +67,7 @@
     padding-right: 20px;
 }
 .inner2{
+    padding-top: 10px;
     display: flex;
     flex-flow: row wrap;
     align-items: center;
@@ -102,8 +103,7 @@
     width: 10vh;
 }
 .linkimg{
-    width: 10vh;
-    margin-top: 15px;
+    padding-top: 20px;
 }
 
 .list{
