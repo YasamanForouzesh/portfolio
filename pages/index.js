@@ -49,7 +49,7 @@ export default function Home() {
                 </p>
               </div>
               <div className={styles.pongdiv}>
-                <a href="https://yasamanforouzesh.github.io/project1-pong/"> <Image className={styles.pongimg} src="/pong2.jpg" width={250} height={350}/></a>
+                <a href="https://yasamanforouzesh.github.io/project1-pong/"> <img className={styles.pongimg} src="/pong2.JPG"/></a>
                 <i class="fa fa-github" aria-hidden="true" src="/GitHub_Logo.png"></i>
               </div>
           </div>
@@ -128,7 +128,7 @@ export default function Home() {
                 </p>
               </div>
               <div className={styles.pongdiv}>
-                <a href="http://sunvoyage.herokuapp.com/"> <Image className={styles.pongimg} src="/Sunvoyage.jpg" width={250} height={350}/></a>
+                <a href="http://sunvoyage.herokuapp.com/"> <img className={styles.pongimg} src="/Sunvoyage.JPG"/></a>
                 <i class="fa fa-github" aria-hidden="true" src="/GitHub_Logo.png"></i>
               </div>
           </div>
@@ -230,7 +230,7 @@ export default function Home() {
               <a href="https://github.com/YasamanForouzesh"><img className={styles.logoimg} src="/Octocat.png"/></a>
           </div>
           <div>
-              <a href="https://www.linkedin.com/in/yasaman-forouzesh/"><img className={styles.linkimg} src="/Linkedin.png" /></a>
+              <a href="https://www.linkedin.com/in/yasaman-forouzesh/"><img className={styles.linkimg} src="/Linkedin.png"/></a>
           </div>
         </div>
       </div>       
