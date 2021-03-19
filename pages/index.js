@@ -3,34 +3,6 @@ import styles from '../styles/Index.module.css'
 import Image from 'next/image'
 export default function Home() {
   return (
-  //   <div className={styles.diagonalbox}>
-  //       <h1 className={styles.text}>
-  //         Portfolio
-  //       </h1>
-  //       <h3 className={styles.text}>
-  //         Yasaman Forouzesh
-  //       </h3>
-
-  //     <div class={styles.floatcontainer}>
-  //       <div class={styles.floatchild}>
-  //         <div class={styles.green}>
-  //         <img className={styles.myimg} src="/linkdin2.jpg"/>
-  //         </div>
-  //       </div>
-  //       <div class={styles.floatchild}>
-  //         <div class={styles.blue}>
-            // <p>
-            //   I am a full stack developer who is creative and a quick problem solver. 
-            //   My strong communication skills were developed as a computer science tutor, 
-            //   and I believe in the value of teamwork to find solutions quickly and to complete 
-            //   projects on time. The difficulty of a challenge inspires me to find the best solutions. 
-            //   I love errors and obstacles because of the energy and satisfaction I feel when I solve 
-            //     them.
-            // </p>
-  //         </div>
-  //       </div>
-  //     </div>
-  // </div>
   <body className={styles.body}>
       <h1 className={styles.text}>Portfolio</h1>
       <h3 className={styles.text}>Yasaman Forouzesh</h3>
