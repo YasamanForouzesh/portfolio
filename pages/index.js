@@ -5,6 +5,7 @@ export default function Home() {
   return (
   <body className={styles.body}>
       <h1 className={styles.text}>Portfolio</h1>
+      <h1 className={styles.text}>FUll Stack Developer</h1>
       <h3 className={styles.text}>Yasaman Forouzesh</h3>
       <div className={styles.flex}>
           <div className={styles.inner}>
@@ -49,13 +50,13 @@ export default function Home() {
                 </p>
               </div>
               <div className={styles.pongdiv}>
-                <a href="https://yasamanforouzesh.github.io/project1-pong/"> <img className={styles.pongimg} src="/pong2.JPG"/></a>
+                <a href="https://yasamanforouzesh.github.io/project1-pong/" target="_blank"> <img className={styles.pongimg} src="/pong2.JPG"/></a>
                 <i class="fa fa-github" aria-hidden="true" src="/GitHub_Logo.png"></i>
               </div>
           </div>
           <div className={styles.inner}>
               <div className={styles.first1}>
-                <a href="https://finaldeploymentmovie.herokuapp.com/"> <img className={styles.pongimg} src="/movie1.JPG" /></a>
+                <a href="https://finaldeploymentmovie.herokuapp.com/" target="_blank"> <img className={styles.pongimg} src="/movie1.JPG" /></a>
               </div>
               <div className={styles.second}>
                 <p>
@@ -128,43 +129,13 @@ export default function Home() {
                 </p>
               </div>
               <div className={styles.pongdiv}>
-                <a href="http://sunvoyage.herokuapp.com/"> <img className={styles.pongimg} src="/Sunvoyage.JPG"/></a>
+                <a href="http://sunvoyage.herokuapp.com/" target="_blank"> <img className={styles.pongimg} src="/Sunvoyage.JPG"/></a>
                 <i class="fa fa-github" aria-hidden="true" src="/GitHub_Logo.png"></i>
               </div>
-          </div>
-          <div className={styles.inner}>
-              <div className={styles.first1}>
-                <a href="https://github.com/YasamanForouzesh/Auth-sqlalchemy-flask"> <img className={styles.pongimg} src="/Auth.JPG"/></a>
-              </div>
-              <div className={styles.second}>
-                <p>
-                  This app has Auth in Flask. So user can signup, login and then can go to profile.
-                </p>
-              </div>
-              <div className={styles.list2}>
-                <h>
-                  Technologies:
-                </h>
-                <ul>
-                  <li>
-                    CSS
-                  </li>
-                  <li>
-                    HTML
-                  </li>
-                  <li>
-                    Flask
-                  </li>
-                  <li>
-                    Jinja
-                  </li>
-                  <li>
-                    SQLAlchemy
-                  </li>
-                </ul>
-              </div>
-          </div>
+          </div>          
       </div>
+
+
 
       <h1 className={styles.text}>skills</h1> 
 
@@ -227,10 +198,10 @@ export default function Home() {
         <h1 className={styles.text}> Contacts</h1>
         <div className={styles.grid}>
           <div>
-              <a href="https://github.com/YasamanForouzesh"><img className={styles.logoimg} src="/Octocat.png"/></a>
+              <a href="https://github.com/YasamanForouzesh" target="_blank"><img className={styles.logoimg} src="/Octocat.png" /></a>
           </div>
           <div>
-              <a href="https://www.linkedin.com/in/yasaman-forouzesh/"><img className={styles.linkimg} src="/Linkedin.png"/></a>
+              <a href="https://www.linkedin.com/in/yasaman-forouzesh/" target="_blank"><img className={styles.linkimg} src="/Linkedin.png" /></a>
           </div>
         </div>
       </div>       
