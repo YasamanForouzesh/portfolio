@@ -4,9 +4,8 @@ import Image from 'next/image'
 export default function Home() {
   return (
   <body className={styles.body}>
-      <h1 className={styles.text}>Portfolio</h1>
-      <h1 className={styles.text}>FUll Stack Developer</h1>
-      <h3 className={styles.text}>Yasaman Forouzesh</h3>
+      <h1 className={styles.text}>Yasaman Forouzesh</h1>
+      <h2 className={styles.text}>Full Stack Developer</h2>
       <div className={styles.flex}>
           <div className={styles.inner}>
               <div className={styles.first}>
@@ -137,7 +136,7 @@ export default function Home() {
 
 
 
-      <h1 className={styles.text}>skills</h1> 
+      <h1 className={styles.text}>Skills</h1> 
 
 
 
@@ -145,7 +144,7 @@ export default function Home() {
         <div className={styles.grid}>
           <div className={styles.column1}>
             <h3 className={styles.topic}>
-              Langueges
+              Languages
             </h3>
             <p>
               JavaScript
@@ -179,7 +178,7 @@ export default function Home() {
           </div>
           <div className={styles.column3}>
             <h3 className={styles.topic}>
-              DataBase
+              Database
             </h3>
             <p>
               SQL
@@ -203,6 +202,10 @@ export default function Home() {
           <div>
               <a href="https://www.linkedin.com/in/yasaman-forouzesh/" target="_blank"><img className={styles.linkimg} src="/Linkedin.png" /></a>
           </div>
+        </div>
+        <div>
+          
+          <a href='/resume.pdf' target='_blank' aria-label='Resume'><h3 className={styles.text}>Resume</h3></a>
         </div>
       </div>       
   </body>
