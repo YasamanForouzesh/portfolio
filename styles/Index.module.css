@@ -31,12 +31,15 @@
 }   */
 
 
-.body{
-    background : linear-gradient(45deg, #654ea3, #eaafc8); 
+.iabout{
+
+    overflow: hidden;
 }
-.text {
-    text-align: center; 
-    font-style: italic;
+.about{
+    background : linear-gradient(45deg, #654ea3, #eaafc8); 
+    width:100%;
+    height:100vh;
+    padding-top: 60px;
 
 }
 .inner{
@@ -44,11 +47,203 @@
     flex-flow: row wrap;
     align-items: center;
 }
+.text {
+    text-align: center; 
+    font-style: italic;
+}
+
 .myimg {
     border-radius: 70%;
-    padding-left: 20px;
-    margin-left: 20px;
+    margin-right: 20vh;
+    margin-left: 30vh;
+    margin-top: 10px;
     }
+/* Add a black background color to the top navigation */
+.topnav {
+
+    overflow: hidden;
+    background-color: rgb(112, 92, 108);
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    }
+
+  /* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    }
+
+  /* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    }
+
+  /* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #904caf;
+    color: white;
+}
+
+.pabout{
+    width: 70vh;
+    height: 20vh;
+    margin-top: 10px;
+    margin-right: 20px;
+    padding-left: 10px;
+}
+.iabout{
+    width: 100vh;
+    height: 100vh;
+}
+.pdescription{
+    width: 50vh;
+}
+.projectdiv{
+    background : linear-gradient(45deg, #4310ce, #df76a2); 
+    overflow: hidden;
+    text-align: center;
+}
+.ptext{
+    margin-top: 10vh;
+}
+.pimg{
+    
+    height: 30vh;
+    width: 50vh;
+    padding: 10px 0px 10px 0px;
+  
+    border-radius: 25px;
+    transition:background-position 2s;
+
+}
+.pitext:hover{
+    transform: scale(1.2);
+
+}
+.pimg:hover{
+    transform: scale(1.2);
+}
+.project{
+    margin-left: 10px;
+    margin-right: 10px;
+    height:80vh;
+    width: 60vh;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+.pinner{
+
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.ulskill{
+    text-align: left;
+}
+.gridcontainer{
+    gap: 10px;
+    display:grid;
+    min-height:100vh;
+    grid-template-rows: 1fr 1fr 1fr;
+    /* fr means rest of the page */
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "sql react python node"
+                        "mongdb javascript html "
+                            "css";
+}
+.sql{
+    grid-area: sql;
+    width: 70px;
+    height: 60px;
+    text-align: center;
+}
+.react{
+    grid-area: react;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+}
+.python{
+    grid-area: python;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+}
+.node{
+    grid-area: node;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+}
+.mongodb{
+    grid-area: mongodb;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+}
+.javascript{
+    grid-area:javascript;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+}
+.html{
+    grid-area: html;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+}
+.css{
+    grid-area: css;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+}
+.skill{
+    background : linear-gradient(45deg, #4408e7, #dd4e8a); 
+    overflow: hidden;
+    text-align: center;
+}
+.contactdiv{
+    padding-top: 40px;
+    background : linear-gradient(45deg, #4e3397, #a1486d); 
+    overflow: hidden;
+    height: 100vh;
+
+}
+.cinner{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    
+}
+.ctext{
+ 
+    padding-left: 10px;
+}
+.mcontact{
+    width: 90px;
+    height: 90px;
+}
+.rbutton{
+    background : linear-gradient(45deg, #6e5f96, #a1486d); 
+    width: 30vh;
+    height: 10vh;
+    border-radius: 25px;
+    align-items: center;
+    margin: 25px 50px 75px 100px;
+
+    
+}
+/*
 .second{
     width: 80vh;
     padding-left: 10vh;
@@ -60,11 +255,6 @@
 .flex{
     display: flex;
     flex-direction: column;
-}
-.pongimg{
-    height: 50vh;
-    height: 50vh;
-    padding-right: 20px;
 }
 .inner2{
     padding-top: 10px;
@@ -119,4 +309,4 @@
 .list2{
     padding-top: 10px;
     padding-left: 10vh;
-}
+} */
